@@ -77,6 +77,14 @@
             <version>${shiro.version}</version>
         </dependency>
 
+
+<dependency>
+    <groupId>com.okta.spring</groupId>
+    <artifactId>okta-spring-boot-starter</artifactId>
+    <version>1.0.0</version>
+</dependency>
+
+
         <!-- Stormpath support for quick Realm deployment: -->
         <dependency>
             <groupId>com.stormpath.shiro</groupId>
@@ -95,6 +103,8 @@
             <version>3.1.0</version>
             <scope>provided</scope>
         </dependency>
+        
+        
     </dependencies>
 
 </project>
